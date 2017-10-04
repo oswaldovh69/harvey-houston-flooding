@@ -1,9 +1,9 @@
 var myData = [
 	{time_stamp:1, max_capacidad:70},
 	{time_stamp:18, max_capacidad:70},
-	{time_stamp:36, max_capacidad:75},
-	{time_stamp:48, max_capacidad:73},
-	{time_stamp:72, max_capacidad:75},  
+	{time_stamp:36, max_capacidad:70},
+	{time_stamp:48, max_capacidad:70},
+	{time_stamp:72, max_capacidad:70},  
 ];
 
 
@@ -52,7 +52,7 @@ function update(myData) {
 					.enter() // enter
 					.append('circle') 
 						.attr('class', 'point')
-						.style("fill", "2B68F5")
+						.style("fill", "009900")
 						.attr('r', r)
 						.attr("cx", function (d) {
 							return widthScale(d.time_stamp);
