@@ -1,0 +1,16 @@
+{
+  "name": "stackedarea",
+  "version": "1.0.0",
+  "description": "Propuesta Proyecto Quiz 1",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^4.11.0",
+    "express": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
